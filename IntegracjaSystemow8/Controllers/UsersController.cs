@@ -45,7 +45,7 @@ public class UsersController : ControllerBase
         return Ok(response);
     }
 
-    [HttpGet("userCount")]
+    [HttpGet("getUserCount")]
     [Authorize(Roles = "user", AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     public IActionResult countUsers()
     {
