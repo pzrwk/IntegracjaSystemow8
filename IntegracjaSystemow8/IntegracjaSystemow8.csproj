@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="E:\OneDrive\Sem6\Integracja systemow\IntegracjaSystemow8\IntegracjaSystemow8\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="E:\OneDrive\Sem6\Integracja systemow\IntegracjaSystemow8\IntegracjaSystemow8\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.17.0" />
+  </ItemGroup>
+
+</Project>
